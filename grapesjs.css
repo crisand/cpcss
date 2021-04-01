@@ -1,0 +1,296 @@
+
+.gjs-cv-canvas__frames {
+
+}
+
+.gjs-toolbar {
+    display: none !important;
+}
+
+.gjs-badge {
+    display: none !important;
+
+}
+
+.gjs-cv-canvas .gjs-highlighter, .gjs-cv-canvas .gjs-highlighter-sel {
+    display: none !important;
+}
+
+.gjs-cv-canvas ::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.gjs-cv-canvas {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.gjs-editor {
+    overflow: auto !important;
+}
+
+.gjs-cv-canvas {
+    overflow: hidden !important;
+}
+
+.gjs-field input, .gjs-field select, .gjs-field textarea {
+
+    padding: 4px;
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+
+.gjs-input-holder > .gjs-field-color input {
+    padding-right: 0px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #999999;
+    width: 0px;
+    padding-left: 0px;
+    background-color: #ffffff;
+    border-radius: 3px 0px 0px 3px;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+}
+
+.gjs-editor-cont {
+    height: 570px !important;
+}
+
+.gjs-pn-views {
+    display: none;
+}
+
+.gjs-pn-options {
+    left: 5px;
+    right: initial;
+    top: 0;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff !important;
+    text-decoration: none;
+    background-color: #0592cd;
+}
+
+.gjs-sm-sector .gjs-sm-property, .gjs-clm-tags .gjs-sm-property {
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 0 5px;
+}
+
+.gjs-field {
+    background-color: #f3f3f3;
+    border: none;
+    box-shadow: none;
+    /* border-radius: 20px; */
+    box-sizing: border-box;
+    padding: 0;
+    position: relative;
+}
+
+
+.gjs-frame-wrapper {
+    background-color: transparent !important;
+}
+
+.gjs-field-color-picker {
+    border-radius: 3px;
+    position: initial;
+    top: 0;
+
+}
+
+.gjs-input-holder {
+    display: none;
+}
+
+.gjs-field-colorp .gjs-checker-bg, .gjs-field-colorp .gjs-field-colorp-c {
+    height: 100%;
+    width: 100%;
+    border-radius: 3px;
+    background-image: none;
+}
+
+
+.gjs-field-colorp {
+    border-left: none;
+    box-sizing: border-box;
+    padding: 0px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 0px;
+    position: initial;
+    right: 0;
+    top: 0;
+    height: 30px;
+    width: 100%;
+    z-index: 10;
+    margin-top: -25px;
+    margin-bottom: 25px;
+}
+
+.gjs-field .gjs-sel-arrow {
+    height: 100%;
+    width: 9px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    display: none;
+}
+
+.gjs-sm-label {
+    font-weight: bold;
+}
+
+.gjs-two-color,
+.gjs-sm-sector .gjs-sm-field input, .gjs-clm-tags .gjs-sm-field input, .gjs-sm-sector .gjs-clm-field input, .gjs-clm-tags .gjs-clm-field input, .gjs-sm-sector .gjs-clm-select input, .gjs-clm-tags .gjs-clm-select input, .gjs-sm-sector .gjs-sm-field select, .gjs-clm-tags .gjs-sm-field select, .gjs-sm-sector .gjs-clm-field select, .gjs-clm-tags .gjs-clm-field select, .gjs-sm-sector .gjs-clm-select select, .gjs-clm-tags .gjs-clm-select select,
+.gjs-color-warn,
+.gjs-sm-sector .gjs-sm-property, .gjs-clm-tags .gjs-sm-property,
+.gjs-pn-panel,
+.gjs-pn-buttons,
+.gjs-blocks-c {
+    color: #5e6366;
+}
+
+.gjs-field-int .gjs-input-holder {
+    display: block;
+}
+
+[class*="tdnlayerCheck"] .gjs-label-wrp {
+    display: none;
+}
+
+[class*="tdnlayerCheck"] {
+    width: 20px;
+    float: left;
+    margin-top: 3px;
+}
+
+[class*="tdnlayerName"] .gjs-label-wrp {
+    display: none;
+}
+
+[class*="tdnlayerName"] .gjs-trt-trait {
+    display: flex !important;
+
+}
+
+.gjs-field {
+    margin-bottom: 10px;
+}
+
+.gjs-traits-label {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    font-weight: lighter;
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: left;
+    display: none;
+}
+
+.gjs-trt-traits {
+    margin-top: -40px;
+}
+
+.gjs-label {
+    line-height: 18px;
+    font-size: 13px;
+}
+
+.gjs-label-wrp {
+    width: 100%;
+    float: right;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+.gjs-trt-trait {
+    display: block;
+}
+
+.gjs-field-wrp {
+    float: left;
+    width: calc(100% - 0px);
+    flex-grow: 1;
+}
+
+
+.gjs-field-int input {
+    appearance: auto;
+}
+
+.gjs-field-arrows {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: ns-resize;
+    margin: auto;
+    height: 20px;
+    width: 14px;
+    z-index: 10;
+    bottom: 0;
+    padding-left: 3px;
+    right: 3px;
+    top: 0;
+}
+
+.gjs-cv-canvas {
+
+    width: calc(100% - 220px);
+    background-color: #ddd;
+}
+
+.gjs-one-bg {
+    background-color: #f3f3f3;
+}
+
+.gjs-field-checkbox input {
+    display: block;
+}
+
+.gjs-trt-trait--checkbox .gjs-label {
+
+}
+
+.gjs-trt-trait--checkbox .gjs-label-wrp {
+    width: 240px;
+}
+
+.gjs-field-wrp .gjs-field-wrp--checkbox {
+    width: 40px;
+    flex-grow: initial;
+}
+
+input[type="checkbox"] {
+    appearance: auto;
+}
+
+.gjs-pn-commands {
+    width: calc(100% - 220px);
+    left: 0;
+    top: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.gjs-pn-views-container {
+    width: 220px;
+}
+
+.gjs-three-color {
+    color: #0592cd;
+}
+
+.gjs-four-color-h:hover,
+.gjs-four-color {
+    color: #5e6366;
+}
+
+.gjs-devices-c {
+
+    padding: initial !important;
+}
