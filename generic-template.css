@@ -265,7 +265,9 @@ table tfoot td div {
     overflow: auto;
     display: flex;
 }
-
+::-webkit-scrollbar {
+    display: block !important;
+}
 .gjs-cell {
     flex-basis: revert !important;
     overflow: auto;
