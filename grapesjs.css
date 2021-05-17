@@ -16,15 +16,8 @@
     display: none !important;
 }
 
-.gjs-cv-canvas ::-webkit-scrollbar {
-    display: none;
-}
 
-/* Hide scrollbar for IE, Edge and Firefox */
-.gjs-cv-canvas {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-}
+
 
 .gjs-editor {
     overflow: auto !important;
