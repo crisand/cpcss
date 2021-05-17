@@ -190,9 +190,7 @@ table tfoot td div {
     height: 34px;
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
+
 
 .preview .rul_line {
     display: none;
