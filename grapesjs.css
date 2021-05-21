@@ -24,7 +24,7 @@
 }
 
 .gjs-cv-canvas {
-    overflow: hidden !important;
+    overflow: auto !important;
 }
 
 .gjs-field input, .gjs-field select, .gjs-field textarea {
