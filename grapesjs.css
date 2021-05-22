@@ -3,6 +3,9 @@
 
 }
 
+.gjs-cv-tools {
+  display: none;
+}
 .gjs-toolbar {
     display: none !important;
 }
