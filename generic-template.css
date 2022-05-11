@@ -181,10 +181,9 @@ table tfoot td div {
 }
 
 .text-input {
-   display:-webkit-flex;
-   flex-direction: column;
-   -webkit-justify-content: flex-start;
-   text-align:center;
+   display:-webkit-box;
+   -webkit-box-pack: center;
+   -webkit-box-align: center;
 }
 
 .scalebar {
