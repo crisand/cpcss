@@ -181,7 +181,7 @@ table tfoot td div {
 }
 
 .text-input {
-   display: webkit-box;
+   display:-webkit-flex;
    flex-direction: column;
    -webkit-justify-content: flex-start;
    text-align:center;
