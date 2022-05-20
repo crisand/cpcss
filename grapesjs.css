@@ -2,7 +2,10 @@
 .gjs-cv-canvas__frames {
 
 }
-
+.gjs-dashed *[data-highlightable] {
+    outline: none;
+    outline-offset: -2px;
+}
 .gjs-cv-tools {
   display: none;
 }
